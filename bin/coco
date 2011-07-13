@@ -1,0 +1,4 @@
+#!/usr/bin/env coffee
+path = require 'path'
+require.paths.unshift path.normalize( path.join( __dirname, '..', 'src' ) )
+require 'coco'
